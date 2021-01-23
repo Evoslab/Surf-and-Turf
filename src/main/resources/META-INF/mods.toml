@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="MIT"
+issueTrackerURL="https://github.com/Evoslab/Surf-and-Turf/issues"
+[[mods]]
+modId="surfandturf"
+version="1.0.0"
+displayName="Surf & Turf Cuties"
+logoFile="surfandturf.png"
+credits=""
+authors="Evo's Lab"
+description='''
+Surf & Turf Cuties
+'''
+
+[[dependencies.surfandturf]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.surfandturf]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3, 1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.surfandturf]]
+ modId="abnormals_core"
+    mandatory=true
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
